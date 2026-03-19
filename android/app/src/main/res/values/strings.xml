@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">RELACRM</string>
+    <string name="title_activity_main">RELACRM</string>
+    <string name="package_name">br.com.relacrm</string>
+    <string name="custom_url_scheme">br.com.relacrm</string>
+</resources>
