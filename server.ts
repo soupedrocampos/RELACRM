@@ -195,7 +195,7 @@ async function analyzeProfileWithAI(imageBase64DataUri: string, username?: strin
 // ─── Servidor Express ──────────────────────────────────────────────────────────
 async function startServer() {
   const app = express();
-  const PORT = process.env.PORT || 4000;
+  const PORT = Number(process.env.PORT) || 4000;
 
   app.use(express.json({ limit: '50mb' }));
 
